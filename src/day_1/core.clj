@@ -12,4 +12,6 @@
  (map #(map read-string %))
  (map #(reduce + %))
  (sort)
- (last))
+ (reverse)
+ (take 3)
+ (reduce +))
